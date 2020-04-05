@@ -30,3 +30,4 @@ print(is_parsable(10))
 print(is_parsable("test string"))
 print(is_parsable(10.5))
 
+
