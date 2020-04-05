@@ -1,5 +1,5 @@
 
-error_message = "Need to enter an integer"
+error_message = "Need to enter an integer."
 def is_even(num):
     try:
         int(num)
@@ -10,10 +10,10 @@ def is_even(num):
             return True
         else:
             return False
-    except ValueError:
+    except Exception:
         print(error_message)
         exit()
 
 
 
-print(is_even(10))
+print(is_even(10.5))
