@@ -5,7 +5,7 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build_pyramid.py" beforeDir="false" afterPath="$PROJECT_DIR$/build_pyramid.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build_pyramid_with_given_height.py" beforeDir="false" afterPath="$PROJECT_DIR$/build_pyramid_with_given_height.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/is_parsable.py" beforeDir="false" afterPath="$PROJECT_DIR$/is_parsable.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build_pyramid_with_given_height_and_direction.py" beforeDir="false" afterPath="$PROJECT_DIR$/build_pyramid_with_given_height_and_direction.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -42,7 +42,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.build_pyramid_with_given_height">
+  <component name="RunManager" selected="Python.build_pyramid">
     <configuration name="build_pyramid" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Excercises" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -150,9 +150,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.build_pyramid_with_given_height" />
         <item itemvalue="Python.build_pyramid" />
         <item itemvalue="Python.build_pyramid_with_given_height_and_direction" />
+        <item itemvalue="Python.build_pyramid_with_given_height" />
         <item itemvalue="Python.is_parsable" />
         <item itemvalue="Python.test" />
       </list>
@@ -181,16 +181,5 @@
         </entry>
       </map>
     </option>
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/build_pyramid_with_given_height_and_direction.py</url>
-          <line>1</line>
-          <option name="timeStamp" value="5" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>

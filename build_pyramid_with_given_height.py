@@ -4,7 +4,7 @@ def build_pyramid_with_given_height(height):
     else:
         space = " "
         star = "*"
-        times = height
+        times = height - 1
         for i in range(0, height):
             print(space * times + star)
             times -= 1
