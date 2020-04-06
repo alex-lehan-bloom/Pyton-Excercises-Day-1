@@ -1,0 +1,4 @@
+*.pdf
+*test.py
+*virtual_env/
+*.idea/
