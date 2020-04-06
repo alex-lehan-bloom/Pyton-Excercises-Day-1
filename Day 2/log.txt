@@ -1,2 +1,6 @@
 20/04/2020, 13:52:29 This is a new log message line
 20/04/2020, 13:52:29 This is a new log message line
+20/04/2020, 15:35:02 msg
+20/04/2020, 15:35:28This is a log message from Alex
+20/04/2020, 15:35:41This is a log message from Alex
+20/04/2020, 15:36:23 This is a log message from Alex 
