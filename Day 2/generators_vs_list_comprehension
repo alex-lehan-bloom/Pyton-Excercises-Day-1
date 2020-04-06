@@ -1,0 +1,7 @@
+When would the use of generators be preferred over list comprehension and vice versa?
+
+- You would want to use a generator when resources are your main concern. Generators use a lot less memory compared to generators,
+  but are much slower.
+
+- You would want to use list comprehension if speed is your main concern. List comprehension is faster than generators,
+  but uses more memory.
