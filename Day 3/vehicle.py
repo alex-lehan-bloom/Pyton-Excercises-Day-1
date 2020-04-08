@@ -1,3 +1,4 @@
+import csv
 
 class Vehicle:
 
@@ -9,7 +10,7 @@ class Vehicle:
         self.seating_capacity = seating_capacity
         self.current_speed = 0
 
-    # Class F1  unctions
+    # Class functions
     def accelerate(self, increase_by):
         self.current_speed += increase_by
         return "Your {} is going {} MPH".format(self.type, self.current_speed)
@@ -21,6 +22,12 @@ class Vehicle:
     def stop(self):
         self.current_speed = 0
         return "You have stopped. You are now going {} MPH".format(self.current_speed)
+
+    def load_from_csv(self, path):
+        with open(path, newline='') as csv_file:
+            reader = csv.DictReader(csv_file)
+            for row in reader:
+                print(row['last_name'], row['first_name'], row['role'])
 
     # Setters and Getters
     def set_type(self, type):
@@ -54,8 +61,5 @@ class Vehicle:
         return self.seating_capacity()
 
 
-# my_vehicle = Vehicle(2006, 100, 4, 5)
-#
-# print(my_vehicle.accelerate(50))
-# print(my_vehicle.accelerate(20))
-# print(my_vehicle.brake(25))
+my_vehicle = Vehicle("Unknown", 2006, 100, 4, 5)
+my_vehicle.load_from_csv("load_me.csv")
